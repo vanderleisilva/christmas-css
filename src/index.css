@@ -55,3 +55,27 @@
     bottom: 12px;
     left: 0;
 }
+.decoration{
+	width: 0;
+    height: 69px;
+    background: white;
+    transform: skew(-65deg);
+    border-left: dashed 8px #FFE45A;
+    position: absolute;
+}
+.dec-one{
+	top: 134px;
+    left: 137px;
+    height: 45px;
+}
+.dec-two{
+	top: 250px;
+    left: 129px;
+}
+.dec-three{
+	top: 319px;
+    left: 131px;
+    border-left: dashed 8px #FFE45A;
+    height: 71px;
+    transform: skew(-69deg);
+}
