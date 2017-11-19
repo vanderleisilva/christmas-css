@@ -1,0 +1,57 @@
+.body{
+	width: 300px;
+	margin: auto;
+	position: relative;
+	border: solid 1px;
+    height: 450px;
+}
+
+.body .tree{
+	border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-bottom-color: #04a769;
+    border-style: solid;
+    position: absolute;
+}
+
+.body .one{
+	border-width: 150px;
+	margin: 0;
+	top: 90px;
+}
+
+.body .two{
+	border-width: 130px;
+	margin: 0 19px;
+	top: 60px;
+}
+
+.body .three{
+	border-width: 110px;
+	margin: 0 39px;
+	top: 30px;
+}
+
+.body .four{
+	border-width: 90px;
+    margin: 0 57px;
+	top: 0;
+}
+.root{
+	position: absolute;
+    width: 20px;
+    height: 30px;
+    background: #86724C;
+    bottom: 30px;
+    left: calc(300px/2 - 10px);
+}
+.floor{
+	position: absolute;
+    width: 300px;
+    height: 9px;
+    background: #CCCCCC;
+    border-radius: 50%;
+    bottom: 12px;
+    left: 0;
+}
