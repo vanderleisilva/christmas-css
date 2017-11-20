@@ -187,3 +187,24 @@
     left: 20px;
     content: ""; 
 }
+.ball{
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border-radius: 50%;
+}
+.cont-ball1{
+    position: absolute;
+    top: 153px;
+    left: 139px;
+}
+.cont-ball2{
+    position: absolute;
+    top: 268px;
+    left: 163px;
+}
+.cont-ball3{
+    position: absolute;
+    bottom: 70px;
+    left: 114px;
+}

@@ -9,4 +9,4 @@ What is it for!??
 [Click here](https://vanderleisilva.github.io/christmas-css/demo) and checkout how it looks like, take a time and inspect the code ;)
 
 ##### CSS is awesome!
-In times of **Front End fatigue** why not *really* learn what is basis and essencial!? So, let's CSS our lifes! Hehe!
+In times of **Front End fatigue** why not *really* learn what is basic and essencial!? So, let's CSS our lifes! Hehe!
