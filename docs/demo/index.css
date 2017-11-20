@@ -118,3 +118,36 @@
 	top: 200px;
     left: 164px;
 }
+.boot{
+    width: 20px;
+    height: 40px;
+    border-radius: 9px;
+    background: red;
+    position: relative;
+    border-bottom-left-radius: 8px;
+}
+.boot:after{
+    content: "";
+    background: red;
+    width: 32px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom:0;
+    border-bottom-right-radius: 8px;
+}
+.cont-leftboot{
+    position: absolute;
+    transform: rotate(-19deg);
+    bottom: 78px;
+    right: 103px;
+}
+.right-boot:after{
+    left:-13px;
+}
+.cont-rightboot{
+    position: absolute;
+    transform: rotate(-19deg);
+    bottom: 180px;
+    left: 103px;
+}
