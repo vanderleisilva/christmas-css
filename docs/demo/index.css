@@ -151,3 +151,39 @@
     bottom: 180px;
     left: 103px;
 }
+.gift-box{
+    width: 46px;
+    height: 41px;
+    position: relative;
+    background: #FF365F;
+    border-top: solid 1px #1FC9C6;
+    margin: 0 2px;
+}
+.gift-box:after{
+    position: absolute;
+    height: 100%;
+    width: 10px;
+    background: #1FC9C6;
+    left: 18px;
+    content: "";
+}
+.cont-gift{
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+}
+
+.gift-cover{
+    width: 50px;
+    height: 10px;
+    position: relative;
+    background: #FF365F;
+}
+.gift-cover:after{
+    position: absolute;
+    height: 100%;
+    width: 10px;
+    background: #1FC9C6;
+    left: 20px;
+    content: ""; 
+}
