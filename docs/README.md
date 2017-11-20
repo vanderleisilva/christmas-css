@@ -10,3 +10,10 @@ What is it for!??
 
 ##### CSS is awesome!
 In times of **Front End fatigue** why not *really* learn what is basic and essencial!? So, let's CSS our lifes! Hehe!
+
+###### The project explore some interesting features such as:
+* animation
+* content
+* :after pseudo-selector
+* transform
+* calc
