@@ -69,13 +69,53 @@
     height: 45px;
 }
 .dec-two{
+	top: 189px;
+    left: 129px;
+    height: 60px;
+}
+.dec-three{
 	top: 250px;
     left: 129px;
 }
-.dec-three{
+.dec-four{
 	top: 319px;
     left: 131px;
     border-left: dashed 8px #FFE45A;
     height: 71px;
     transform: skew(-69deg);
+}
+.star{
+    position: relative;
+    display: block;
+    color: #FFE45A;
+    width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #FFE45A;
+    border-left: 10px solid transparent;
+}
+.star:after {
+    content: "";
+    position: absolute;
+    border-top: 20px solid #FFE45A;
+    display: block;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    left: -10px;
+    top: 6px;
+}
+.cont-star1{
+	position: absolute;
+	top: 71px;
+    left: calc(300px/2 - 13px);
+}
+.cont-star2{
+	position: absolute;
+	top: 300px;
+    left: 94px;
+}
+.cont-star3{
+	position: absolute;
+	top: 200px;
+    left: 164px;
 }
